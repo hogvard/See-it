@@ -1,0 +1,78 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: rgb(36, 36, 36);
+    margin: 0;
+    color: rgb(235, 235, 235);
+    letter-spacing: 1px;
+}
+
+
+
+/*Navbar*/
+.navbar {
+    overflow: hidden;
+    background-image: linear-gradient(to right, rgb(173, 44, 75), #012441);
+    padding-bottom: 0;
+}
+
+.navbar a {
+   font-size: 2.1vw;
+   text-decoration: none;
+   padding: 22px 16px;
+   display: block;
+   color: rgb(235, 235, 235);
+   float: left;
+   display: flex;
+   padding-left: 18%;
+}
+
+
+
+/*Main*/
+.logo [type=logo] {
+    border: none;
+    position: absolute;
+    height: 90px;
+    width: auto;
+    margin-left: 3vh;
+}
+
+.overskrift {
+    font-size: 1.7vw;
+    letter-spacing: 10px;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.overskrift h4 {
+    font-style: italic;
+    font-size: 1.2vw;
+}
+
+hr {
+    border-top: 2px solid rgb(173, 44, 75);
+    border-bottom: 2px solid rgb(173, 44, 75);
+}
+
+.icons {
+    padding-top: 2%;
+    margin-left: 15%;
+    width: 70%;
+    height: auto;
+    filter: invert(100%);
+    filter: brightness(500%);
+}
+
+
+/*Footer*/
+.footer1 {
+    background-color:  #012441;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 1vw;
+    float: left;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-style: italic;
+}
