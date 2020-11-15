@@ -21,7 +21,6 @@ body {
    display: block;
    color: rgb(235, 235, 235);
    float: left;
-   display: flex;
    padding-left: 19%;
 }
 
@@ -41,6 +40,7 @@ body {
     line-height: 2;
     font-size: 3.3vh;
     letter-spacing: 3px;
+    margin-bottom: 5%;
 }
 
 .vector {
@@ -51,6 +51,89 @@ body {
 
 h2 {
     font-size: 3vw;
+}
+
+
+@media screen and (max-width: 850px) {
+    .logo [type=logo] {
+        border: none;
+        position: absolute;
+        height: 9vw;
+        width: auto;
+        margin-left: 3vh;
+        margin-top: 1%;
+    }  
+}
+
+@media screen and (max-width: 600px) {
+    .logo [type=logo] {
+        border: none;
+        position: absolute;
+        height: 13vw;
+        width: auto;
+        margin-left: 2vh;
+        margin-top: 1%;
+    }
+
+    .navbar a {
+        font-size: 3vw;
+        text-decoration: none;
+        padding: 20px 1px;
+        display: block;
+        color: rgb(235, 235, 235);
+        float: left;
+        margin-left: 15%;
+    }
+
+     .dropbtn {
+        font-size: 2vw !important;
+        padding: 10px !important;
+    }
+
+    .dropdown {
+        font-size: 3.4vw;
+        padding: 7px;
+        margin-left: 33% !important;
+    }
+
+    .footer h4, h3 {
+        font-size: 3vw;
+    }
+
+    .footer p {
+       font-size: 3.5vw; 
+       margin-left: 10px;
+       margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .logo [type=logo] {
+        border: none;
+        position: absolute;
+        height: 13vw;
+        width: auto;
+        margin-left: 2vh;
+        margin-top: 3%;
+    }
+
+    .uat h2 {
+        font-size: 5vw;
+    }
+
+    .dropbtn {
+        font-size: 2.5vw !important;
+        padding: 8px !important;
+    }
+
+    .dropdown {
+        font-size: 3vw;
+        margin-left: 28% !important;
+    }
+
+    .dropdown-content a {
+        min-width: 50px !important;
+    }
 }
 
 /*Button*/
@@ -73,7 +156,6 @@ h2 {
     display: none;
     position: absolute;
     background-color:  rgb(173, 44, 75);
-    min-width: 160px;
     z-index: 1;
 }
   
@@ -97,7 +179,6 @@ h2 {
 }
 
 
-
 /*Footer*/
 .footer1 {
     background-color:  #012441;
@@ -106,10 +187,6 @@ h2 {
     text-align: center;
     font-size: 1.4vw;
     float: left;
-}
-
-.footer1 h4, .footer2 h4 {
-    font-size: 2.7vh;
 }
 
 .footer2 {

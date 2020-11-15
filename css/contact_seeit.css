@@ -74,6 +74,89 @@ body {
     font-weight: bold;
 }
 
+@media screen and (max-width: 850px) {
+    .logo [type=logo] {
+        border: none;
+        position: absolute;
+        height: 9vw;
+        width: auto;
+        margin-left: 3vh;
+        margin-top: 1%;
+    }  
+}
+
+@media screen and (max-width: 600px) {
+    .logo [type=logo] {
+        border: none;
+        position: absolute;
+        height: 13vw;
+        width: auto;
+        margin-left: 2vh;
+        margin-top: 1%;
+    }
+
+    .navbar a {
+        font-size: 3vw;
+        text-decoration: none;
+        padding: 20px 1px;
+        display: block;
+        color: rgb(235, 235, 235);
+        float: left;
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .logo [type=logo] {
+        border: none;
+        position: absolute;
+        height: 13vw;
+        width: auto;
+        margin-left: 2vh;
+        margin-top: 2.7%;
+    }
+
+    .overskrift {
+        font-size: 2.7vw;
+        text-align: center;
+    }
+    
+    .overskrift h1 {
+        letter-spacing: 7px;
+    }
+    
+    .overskrift h4 {
+        font-size: 2.4vw;
+        letter-spacing: 1.4px;
+        line-height: 1.5;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .request {
+        width: 60%;
+        margin: auto;
+        padding: 2%;
+    }
+
+    .request input {
+        padding: 5px !important;
+        font-size: 2.5vw;
+    }
+
+    button {
+        padding: 4px 10px !important;
+        font-size: 3vw !important;
+        margin-bottom: 4%;
+    }
+
+    .footer1 {
+        font-size: 2vw !important;
+    }
+}
+
+
+/*Button*/
 button {
     font-size: 16px;
     background-color: rgb(173, 44, 75);
@@ -82,12 +165,11 @@ button {
     border: none;
     border-radius: 2px;
     cursor: pointer;
-  }
+}
   
 button:hover {
     background-color: rgb(129, 30, 53);
 }
-
 
 
 /*Footer*/

@@ -64,6 +64,76 @@ hr {
 }
 
 
+
+@media screen and (max-width: 850px) {
+    .logo [type=logo] {
+        border: none;
+        position: absolute;
+        height: 9vw;
+        width: auto;
+        margin-left: 3vh;
+        margin-top: 1%;
+    }  
+}
+
+@media screen and (max-width: 600px) {
+    .logo [type=logo] {
+        border: none;
+        position: absolute;
+        height: 13vw;
+        width: auto;
+        margin-left: 2vh;
+        margin-top: 1%;
+    }
+
+    .navbar a {
+        font-size: 3vw;
+        text-decoration: none;
+        padding: 20px 1px;
+        display: block;
+        color: rgb(235, 235, 235);
+        float: left;
+        margin-left: 15%;
+     }
+}
+
+@media screen and (max-width: 425px) {
+    .logo [type=logo] {
+        border: none;
+        position: absolute;
+        height: 13vw;
+        width: auto;
+        margin-left: 2vh;
+        margin-top: 3%;
+    }
+
+    .overskrift {
+        font-size: 2.5vw;
+        letter-spacing: 5px;
+        text-align: center;
+        padding-bottom: 1%;
+    }
+    
+    .overskrift h4 {
+        font-style: italic;
+        font-size: 2.2vw;
+        margin-bottom: 5%;
+    }
+
+    .icons {
+        width: 80%;
+        margin-left: 10% !important;
+        margin-bottom: 7%;
+        margin-top: 5%;
+
+    }
+
+    .footer1 {
+        font-size: 2vw !important;
+    }
+}
+
+
 /*Footer*/
 .footer1 {
     background-color:  #012441;
